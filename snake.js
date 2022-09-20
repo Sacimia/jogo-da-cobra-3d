@@ -1,4 +1,4 @@
-//https://github.com/Divine203/3d-snake-game/blob/main/index.html
+
 const canvas = document.querySelector('.canvas');
 const scoreElement = document.querySelector('.score');
 
