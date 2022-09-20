@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da cobrinha</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="score-cont">
+        <p class="score">0</p>
+    </div>
+    <div class="canvas-cont">
+        <div class="canvas">
+            <!--<div class="snake"></div>-->
+            <!--<div class="fruit"></div>-->
+        </div>
+    </div>
+    <div class="menu">
+        <div class="intro-cont">
+            <p>
+                <span>Jogo</span>
+                <span>da</span>
+                <span>cobrinha</span>
+                <span>3d</span>
+            </p>
+        </div>
+        <div class="btn-cont">
+            <button class="start-btn" onclick="startGame()"><b>COMEÇAR</b></button>
+        </div>
+    </div>
+
+    <!--SELECIONAR NÍVEIS-->
+
+    <div class="menu-select-cont">
+		<div class="menu-select">
+			<p>Selecionar a dificuldade</p>
+
+			<div>
+				<button class="easy" onclick="easy()">Fácil</button>
+			</div>
+			<div>
+					<button class="medium" onclick="medium()">Médio</buttpn>
+			</div>
+			<div>
+				<button class="hard" onclick="hard()">Díficil</button>
+			</div>
+		</div>
+	</div>
+    <script src="snake.js"></script>
+</body>
+</html>
