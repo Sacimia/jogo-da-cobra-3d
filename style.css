@@ -4,7 +4,12 @@ body{
     overflow: hidden;
     background: #113;
 }
+/*****Credits*****/
 
+.btn{
+	color: white;
+	display:block;
+}
 
 /*****Score style*****/
 
